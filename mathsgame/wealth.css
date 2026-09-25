@@ -1,0 +1,40 @@
+body{font-family:-apple-system,Segoe UI,Arial,sans-serif;max-width:1480px;margin:1.2rem auto;padding:0 1rem;color:#1a1a1a}
+h1{margin:.2rem 0}
+select, input{font-size:.85rem;padding:.25rem .35rem;border:1px solid #ccc;border-radius:5px}
+table{border-collapse:collapse;width:100%;font-size:.82rem}
+th, td{border-bottom:1px solid #eee;padding:.32rem .5rem;text-align:left;vertical-align:top}
+th{background:#fafafa;position:sticky;top:0;cursor:pointer;border-bottom:2px solid #ddd}
+tr:hover{background:#fbfdff}
+.unk{color:#888}
+mark{background:#fde68a;padding:0 1px;border-radius:2px}
+.stats{display:flex;flex-wrap:wrap;gap:.4rem;margin:.1rem 0 .6rem}
+.stat{background:#eef3f8;border:1px solid #d3deea;border-radius:6px;padding:.28rem .6rem;font-size:.86rem;color:#234}
+.stat b{color:#0a7d2c;font-size:1.02rem}
+.vtabs{display:flex;gap:5px;margin:.45rem 0 .55rem;border-bottom:2px solid #1f5b8d;flex-wrap:wrap}
+.vtab{font:inherit;font-size:.9rem;padding:6px 16px;border:1px solid #c6d2de;border-bottom:none;border-radius:8px 8px 0 0;background:#f0f4f8;color:#234;cursor:pointer}
+.vtab.on{background:#1f5b8d;color:#fff;font-weight:700;border-color:#1f5b8d}
+tr.fpr{cursor:pointer}
+tr.fpr:hover{background:#eef4fa}
+.fpcar{display:inline-block;transition:transform .12s;color:#1f5b8d;font-size:.85em}
+tr.fxrow td{background:#f8fafc}
+.mfbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:2px 0 10px;max-width:1150px}
+.mfbar .mflbl{font-size:.8rem;font-weight:700;color:#234;margin-right:2px}
+.mfck{display:inline-flex;align-items:center;gap:4px;font-size:.8rem;background:#f0f4f8;border:1px solid #c6d2de;border-radius:14px;padding:2px 9px 2px 7px;cursor:pointer;user-select:none;white-space:nowrap}
+.mfck:hover{background:#e3edf6}
+.mfck input{margin:0 1px 0 0 !important;width:auto !important;vertical-align:middle}
+.mfck:has(input:checked){background:#1f5b8d;color:#fff;border-color:#1f5b8d}
+.mfck .mfn{font-size:.72em;opacity:.7;font-weight:700}
+.mfclr{font:inherit;font-size:.75rem;padding:2px 10px;border:1px solid #c6d2de;border-radius:14px;background:#fff;color:#777;cursor:pointer;margin-left:2px}
+.mfclr:hover{background:#f3f3f3;color:#333}
+.t100 .sub{color:#555;font-size:.85rem;max-width:1150px;line-height:1.45;margin:.3rem 0 .5rem}
+.t100 input{margin:6px 8px 8px 0;padding:6px 10px;width:300px;border:1px solid #bbb;border-radius:5px;font:inherit}
+.t100 select{margin-right:8px;padding:6px;border:1px solid #bbb;border-radius:5px;font:inherit}
+.t100 table{border-collapse:collapse;width:100%;font-size:.84rem;table-layout:fixed}
+.t100 th{position:sticky;top:0;background:#eef3f8;text-align:left;padding:6px 8px;border-bottom:2px solid #c6d2de}
+.t100 td{padding:6px 8px;vertical-align:top;overflow-wrap:break-word}
+.t100 tr.mrow td{border-top:2px solid #dde5ee;padding-bottom:2px}
+.t100 tr.mrow:hover td{background:#f4f8fc}
+.t100 .rk{color:#5a708a;font-weight:700;white-space:nowrap}
+.t100 .ju{color:#7a8696;font-weight:400;font-size:.85em}
+.t100 .flab{font-weight:700;color:#1f5b8d;font-size:.74em;text-transform:uppercase;letter-spacing:.04em;margin-right:6px}
+.vtabs h2.vtab{margin:0;cursor:default}.archival-source{text-decoration:underline dotted;color:#777}
